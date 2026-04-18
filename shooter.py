@@ -8,7 +8,7 @@ display.set_caption("Shooter")
 background = transform.scale(image.load("galaxy.jpg"), (700, 500))
 mixer.init()
 clock = time.Clock()
-FPS = 60
+FPS = 40
 
 
 class GameSprite(sprite.Sprite):
